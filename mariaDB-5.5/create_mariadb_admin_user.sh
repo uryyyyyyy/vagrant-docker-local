@@ -10,7 +10,7 @@ while [[ RET -ne 0 ]]; do
     RET=$?
 done
 
-USER=adm
+USER=admin
 PASS=admin
 
 _word=$( [ ${MARIADB_PASS} ] && echo "preset" || echo "random" )
